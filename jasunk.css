@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+
+:root {
+    --dark-color- : #141414;
+    --bg-color- : #fff8e8;
+    --theme-color- : #fcde9c;
+background-color: var(--bg-color-);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+    scroll-behavior: smooth;
+  }
+
+.headline{
+    background-color: var(--theme-color-);
+    padding: 4px;
+}
+h1{
+
+    color: var(--dark-color-);
+    text-align: center;
+    padding: 2px;
+    font-size: 30px;
+    transition-duration: 0.5s;
+}
+h1:hover{
+    font-size: 50px;
+}
+    
+p{
+    
+    max-width: 40%;
+    flex-basis: 40%;
+    padding: 5%;
+    font-size: 50px;
+    margin-top: -10px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+.del-1 img{
+    max-width: 30%;
+    flex-basis: 30%;
+    margin-left: 850px;
+    margin-top: -2300px;
+}
+
+iframe{
+    padding: 30px;
+}
